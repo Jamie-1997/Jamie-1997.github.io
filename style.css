@@ -1,0 +1,119 @@
+body {
+    background-color: seashell;
+    margin: 0px;
+    border: 5px;
+    font-size: 1.8vw;
+    font-family: helvetica, Arial, sans-serif;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+body > header {
+    background-color: orange;
+    padding: 10px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.navbutton {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+body > footer {
+    background-color: orange;
+}
+
+h1 {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+    text-align: center;
+}
+
+#logo {
+    color: aliceblue;
+    font-family: "Ubuntu", sans-serif;
+    color: aliceblue;
+    /* box-shadow: 8px 8px 10px 3px darkorange; */
+    width: 20%;
+    border-radius: 5%;
+    text-shadow: 
+    1px 1px 0px black, 
+    -1px 1px 0px black,
+    1px -1px 0px black, 
+    -1px -1px 0px black;
+    align-items: center;
+}
+
+form {
+    text-align: center;
+}
+
+#main-header {
+    display: flex;
+    height: 6vh; 
+    justify-content: space-between;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: flex-end;
+}
+
+#nav-bar> li {
+    padding: 9px;
+    align-items: flex-end;
+    margin: 5px;
+}
+
+#main-footer {
+    display: flex;
+}
+
+#footer-list {
+    display: flex;
+    list-style: none;
+}
+
+#footer-list> div > li {
+    margin-left: 12px;
+}
+
+#footer-list> div> li> a {
+    text-decoration: none;
+    color: white;
+}
+
+#main-content {
+    display: flex;
+}
+
+#main-content > div {
+    width: 80%;
+}
+
+#main-content > aside {
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+img {
+    border-radius: 50px;
+}
